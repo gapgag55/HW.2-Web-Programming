@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Car Registration Plate Generator</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+
+  <!-- INCLUDING BOOTSTRAP FOR BEATIFUL WEB PAGE -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- END INCLUDING EXTERNAL FILES -->
+
+  <style>
+    * {
+      text-align: center;
+      margin: 0 auto;
+    }
+  </style>
+</head>
+<body class="container">
+  <h1 style="text-align: left;">Car Registration Plate Generator</h1>
+
+  <div class="row">
+
+    <!-- BEGIN #LEFT -->
+    <div id="left" class="col-lg-4">
+
+      <!-- BEGIN UNWANTEDNUMBER -->
+      <div id="unwantednumber">
+        <span>1. Unwanted Number in License Plate</span>
+      </div>
+
+      <!-- END UNWANTEDNUMBER -->
+
+      <!-- BEGIN UNWANTEDSUMMATION -->
+      <div id="unwantedsummation">
+        <span>2. Unwanted Summation of all digits</span>
+      </div>
+      <!-- END UNWANTEDSUMMATION -->
+
+    </div>
+    <!-- END #LEFT -->
+
+    <!-- Generate Table in DIV below -->
+    <div id="right" class="col-lg-8">
+    </div>
+    <!-- END #RIGHT -->
+
+  </div>
+  <script src="js/app.js"></script>
+</body>
+</html>
